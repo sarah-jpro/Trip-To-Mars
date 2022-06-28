@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px;
+    background-color: rgb(15, 4, 57);
+}
+/*header*/
+
+header h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 70px;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+/* Barre de navigation */
+
+#centre aside {
+    position: fixed;
+    width: 12%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+}
+nav h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    padding: 20px 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ff8000;
+}
+/* Zone centrale */
+#centre main {
+    position: relative;
+    left: 12%;
+}
+span {
+    display: block;
+    border-bottom:  3px solid #ff8000;
+    width: 50%;
+    height: 1px;
+    margin: 60px auto;
+}
+section{
+    background-color: white;
+    padding: 10px 30px;
+    max-width: calc(100vw - 20%);
+}
+h2 {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 80px;
+    text-shadow: 16px -10px 3px rgba(206,89,55,0.55)
+}
+p{
+    padding: 5px 15%;
+}
+/* Section accueil */
+#accueil img {
+    width: 100%;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+#accueil h2 {
+    margin-top: 20px;
+    
+}
+/* section prestations */
+section#prestations div {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+  
+section#prestations span {
+    clear: both;
+    padding-top: 90px;
+}
+  
+section#prestations img {
+    width: 20%;
+}
+  
+section#prestations div h3 {
+    font-size: 25px;
+    margin: 20px 0 10px 0;
+}
+/* section galerie */
+section#galerie img {
+    width: 49%;
+    display: inline;
+  }
+/* section contact */
+section#contact form {
+    width: 50%;
+    margin: 30px auto;
+}
+  
+section#contact form label,
+section#contact form input {
+    display: block;
+    width: 100%;
+}
+  
+section#contact form input {
+    margin-bottom: 10px;
+}
+  
+section#contact form button {
+    display: block;
+    margin: 20px auto;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-family: inherit;
+    cursor: pointer;
+}
+  
+section#contact form p {
+    padding: 0;
+}
+  
+  /* footer */
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+button {
+    border-radius: 30px;
+    color: white;
+    background-color: #ff8000;
+    border: 2px solid ;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+@media (max-width:1025px){
+    nav{
+        visibility: hidden;
+
+    }
+}
